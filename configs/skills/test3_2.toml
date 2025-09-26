@@ -1,0 +1,26 @@
+name = "test3_2"
+display_name = "己方加攻;攻击"
+skill_type = "special"
+
+
+[container]
+selectors = [
+    "caster",
+    'ally_all',
+    'enemy_all',
+]
+
+
+[[container.effect_config]]
+name = "回合属性修改"
+targets = 1
+value = 3
+duration = 3
+attribute = "attack"
+
+
+[[container.effect_config]]
+name = "直伤"
+caster = 0
+targets = 2
+value = 0

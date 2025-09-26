@@ -1,0 +1,24 @@
+[loader]
+
+# 游戏进程 ready 后是否重新读取配置文件
+file_reload = true
+
+# 角色配置目录，以 / 结尾
+character_config_path = "configs/characters/"
+
+# 技能配置目录，以 / 结尾
+skill_config_path = "configs/skills/"
+
+# 玩家配置
+[[loader.players]]
+name = "玩家1"
+#characters = ["test5"]
+characters = ["test5", "test1"]
+
+[[loader.players]]
+name = "玩家2"
+#characters = ["test5"]
+characters = ["test4", "test3"]
+
+[gamesys]
+print_signal_args = false

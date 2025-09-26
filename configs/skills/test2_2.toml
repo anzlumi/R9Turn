@@ -1,0 +1,17 @@
+name = "test2_2"
+display_name = "攻击;"
+skill_type = "attack"
+
+
+[container]
+selectors = [
+    "caster",
+    "enemy_all",
+]
+
+
+[[container.effect_config]]
+name = "直伤"
+caster = 0
+targets = 1
+value = -1

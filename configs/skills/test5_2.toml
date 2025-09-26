@@ -1,0 +1,26 @@
+name = "test5_2"
+display_name = "解毒补偿回血;攻击"
+skill_type = "attack"
+
+
+[container]
+selectors = [
+    "caster",
+    "ally_all",
+    "enemy_one",
+]
+
+
+[[container.effect_config]]
+name = "解除中毒补偿生命调整"
+caster = 0
+targets = 1
+later_targets = 1
+value = 5
+
+
+[[container.effect_config]]
+name = "直伤"
+caster = 0
+targets = 2
+value = 0

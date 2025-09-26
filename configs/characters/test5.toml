@@ -1,0 +1,5 @@
+name = "test5"
+display_name = "解毒"
+max_hp = 24
+attack = 10
+defense = 7

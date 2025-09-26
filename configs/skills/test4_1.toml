@@ -1,0 +1,18 @@
+name = "test4_1"
+display_name = "单体毒"
+skill_type = "special"
+
+
+[container]
+selectors = [
+    "caster",
+    "enemy_one",
+]
+
+
+[[container.effect_config]]
+name = "中毒"
+caster = 0
+targets = 1
+value = 4
+duration = 3

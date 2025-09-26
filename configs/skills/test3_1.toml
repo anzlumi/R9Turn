@@ -1,0 +1,27 @@
+name = "test3_1"
+display_name = "全体毒;己方加防"
+skill_type = "special"
+
+
+[container]
+selectors = [
+    "caster",
+    "enemy_all",
+    'ally_all'
+]
+
+
+[[container.effect_config]]
+name = '中毒'
+caster = 0
+targets = 1
+duration = 2
+value = 2
+
+
+[[container.effect_config]]
+name = "回合属性修改"
+targets = 2
+value = 2
+duration = 2
+attribute = "defense"

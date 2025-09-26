@@ -1,0 +1,50 @@
+name = "test1_1"
+display_name = "攻击;"
+skill_type = "attack"
+
+
+[container]
+selectors = [
+    "caster",
+    "enemy_one",
+]
+
+
+[[container.effect_config]]
+name = "直伤"
+caster = 0
+targets = 1
+value = 4
+
+
+#[[container.effect_config]]
+#name = "回合属性修改"
+#targets = 0
+#value = 10
+#duration = 2
+#attribute = "attack"
+#
+#[[container.effect_config]]
+#name = "直伤"
+#caster = 0
+#targets = 1
+#value = 0
+#
+#[[container.effect_config]]
+#name = "治疗"
+#caster = 0
+#targets = 1
+#value = 2
+#
+#[[container.effect_config]]
+#name = '中毒'
+#caster = 0
+#targets = 1
+#duration = 2
+#value = 5
+#
+#[[container.effect_config]]
+#name = '解除中毒补偿回血'
+#caster = 0
+#targets = 0
+#value = 5

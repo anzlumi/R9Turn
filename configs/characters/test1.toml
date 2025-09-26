@@ -1,0 +1,5 @@
+name = "test1"
+display_name = "消耗"
+max_hp = 26
+attack = 7
+defense = 6

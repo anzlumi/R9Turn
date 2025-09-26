@@ -1,0 +1,5 @@
+name = "test3"
+display_name = "增益"
+max_hp = 22
+attack = 9
+defense = 6

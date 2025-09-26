@@ -1,0 +1,25 @@
+name = "test5_1"
+display_name = "自毒;攻击"
+skill_type = "attack"
+
+
+[container]
+selectors = [
+    "caster",
+    "enemy_one",
+]
+
+
+[[container.effect_config]]
+name = "中毒"
+caster = 0
+targets = 0
+value = 2
+duration = 4
+
+
+[[container.effect_config]]
+name = "直伤"
+caster = 0
+targets = 1
+value = 0
